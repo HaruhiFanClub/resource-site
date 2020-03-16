@@ -1,0 +1,17 @@
+<!-- 侧边栏部分 -->
+<div class='sidebar'>
+  <!-- 完成 sidebar 部分的填充 -->
+  <div class='sidebar-list'>
+    <% theme.categoryList.forEach((category) => { %>
+      <a
+        class='sidebar-ele-common sidebar-ele-unactive'
+        href='./?category=<%- category.name %>'
+        category='<%- category.name %>'
+        img='url(<%- url_for(category.image) %>)'
+        active=false
+      >
+        <%- category.name %>
+      </a>
+    <% }); %>
+  </div>
+</div>

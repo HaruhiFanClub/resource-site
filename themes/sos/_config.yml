@@ -1,0 +1,12 @@
+menu:
+  Home: /
+
+# 相关分类(作为侧边栏)
+categoryList:
+  - name: 动画
+    image: images/动画.png
+  - name: 正作小说
+    image: images/小说.png
+
+# 信息收集地址
+collectInfoLink: http://baidu.com

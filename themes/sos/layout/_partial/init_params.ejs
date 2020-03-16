@@ -1,0 +1,58 @@
+<!-- 初始化参数脚本 -->
+<script type="text/javascript">
+  window.sos = {}
+  window.sos.collectInfoLink = '<%- theme.collectInfoLink %>'
+  const queryStr = window.location.search.substring(1)
+  const queryArr = queryStr.split('&')
+  let curCategory
+  for (const queryEle of queryArr) {
+    const pair = queryEle.split('=')
+    if (pair[0] === 'category') curCategory = pair[1]
+  }
+  window.sos.curCategory = decodeURIComponent(curCategory)
+
+  // 参数预备
+  const categoryMap = {}
+  let posts
+  let downloadList
+  let downloadContent
+
+  // 资源信息汇总
+  <% site.categories.forEach((category) => { %>
+    posts = []
+    // post 数据拼接
+    <% if (category.posts.length > 0) { %>
+    <% category.posts.forEach((post) => { %>
+      // downloadList 数据拼接
+      downloadList = []
+      <% if (post.hasResource) { %>
+      <% post.downloadList.forEach((download) => { %>
+        downloadList.push({
+          intro: `<%- download.intro %>`,
+          size: `<%- download.size %>`,
+          link: `<%- download.link %>`
+        })
+      <% }) %>
+      <% } %>
+
+      downloadContent = ''
+      <% if (post.downloadContent) { %>
+        downloadContent = `<%- post.downloadContent %>`
+      <% } %>
+
+      posts.push({
+        title: `<%- post.title %>`,
+        logo: `<%- post.logo %>`,
+        subTitle: `<%- post.subTitle %>`,
+        content: `<%- post.content %>`,
+        hasResource: <%- post.hasResource %>,
+        downloadList: downloadList,
+        downloadContent: downloadContent
+      })
+    <% }) %>
+    <% } %>
+
+    categoryMap[`<%- category.name %>`] = posts
+  <% }); %>
+  window.sos.categoryMap = categoryMap
+</script>

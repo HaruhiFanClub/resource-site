@@ -1,0 +1,46 @@
+/* 侧边栏样式 */
+.sidebar {
+  display: block;
+  float: left;
+  height: 100%;
+  width: 148px;
+  background: transparent linear-gradient(349deg, #981A1A 0%, #DC1700 100%) 0% 0% no-repeat padding-box;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.sidebar-list {
+  margin-top: 20px;
+}
+
+.sidebar-ele-common:hover {
+  cursor: pointer;
+}
+.sidebar-ele-unactive:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.sidebar-ele-common {
+  display: block;
+  box-sizing: border-box;
+  height: 39px;
+  width: 148px;
+  padding-top: 11px;
+  padding-right: 24px;
+  text-align: right;
+  font-family: Microsoft YaHei;
+  font-size: 20px;
+  line-height: 1;
+  text-decoration: none;
+}
+.sidebar-ele-unactive {
+  font-weight: normal;
+  background-color: transparent;
+  color: #fff;
+}
+.sidebar-ele-active {
+  font-weight: bold;
+  background-color: #fff;
+  color: #000;
+
+  /* 该处资源后续改为 js 出发模式 */
+  /*background-image: url('/images/动画.png');*/
+}

@@ -1,0 +1,55 @@
+/* header 部分样式 */
+@font-face {
+  font-family: 'REEJI-HonghuangLiGB';
+  src: url('../font/reeji.ttf');
+}
+
+header {
+  width: 80%;
+  min-width: 1024px;
+  max-width: 1366px;
+  margin: 24px auto;
+  display: block;
+}
+
+header:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.logo {
+  display: block;
+  height: 64px;
+  width: 71px;
+  float: left;
+  background-image: url('../img/logo.png')
+}
+
+.header-title {
+  display: block;
+  width: 400px;
+  margin-left: 30px;
+  float: left;
+  line-height: 1;
+}
+.header-main-title {
+  text-align: left;
+  /*font: Medium 30px/39px REEJI-HonghuangLiGB;*/
+  font-size: 30px;
+  font-family: REEJI-HonghuangLiGB;
+  font-weight: medium;
+  letter-spacing: 0;
+  line-height: 1;
+  margin-top: 4px;
+  margin-bottom: 14px
+}
+.header-sub-title {
+  text-align: left;
+  /*font: Regular 16px/21px Microsoft YaHei;*/
+  letter-spacing: 0;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: Microsoft YaHei;
+  margin: 0;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SOS</title>
+  <meta charset="utf-8">
+
+  <!-- 初始化全局 js 参数 -->
+  <%- partial('_partial/init_params') %>
+
+  <!-- 样式文件引入 -->
+  <%- css('css/common.css') %>
+  <%- css('css/header.css') %>
+  <%- css('css/sidebar.css') %>
+  <%- css('css/list.css') %>
+</head>
+<body>
+  <%- partial('_partial/header') %>
+  <div class='main-container'>
+    <%- partial('_partial/sidebar') %>
+    <%- partial('_partial/list') %>
+  </div>
+  <!-- <image src='<%- url_for('/images/动画.png') %>' /> -->
+
+  <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+  <%- js('js/sidebar')%>
+  <%- js('js/list') %>
+</body>
+</html>

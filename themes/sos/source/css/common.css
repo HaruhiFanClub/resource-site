@@ -1,0 +1,25 @@
+/* 全局通用的 css */
+html, body {
+  width: 100%;
+  background: #F5EFEF 0% 0% no-repeat padding-box
+}
+
+.main-container {
+  width: 80%;
+  min-width: 1024px;
+  max-width: 1366px;
+  height: 817px;
+  margin: 24px auto;
+  display: block;
+  background-image: url('../img/foreground.png');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.main-container:after {
+  content: '';
+  display: block;
+  clear: both;
+}

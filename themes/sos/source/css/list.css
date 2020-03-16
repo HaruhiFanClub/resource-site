@@ -1,0 +1,162 @@
+/* 资源列表相关样式 */
+.list {
+  _float: left;
+  display: block;
+  height: 100%;
+  box-sizing: border-box;
+  border-radius: 0px 20px 20px 0px;
+  overflow: scroll;
+}
+
+.list-container {
+  _width: 100%;
+  padding-top: 20px;
+}
+.list-container:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.list-ele {
+  display: block;
+  box-sizing: content-box;
+  padding-top: 16px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  height: 64px;
+}
+.list-ele:hover {
+  cursor: pointer;
+}
+.list-ele:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.list-ele-logo {
+  height: 64px;
+  width: 64px;
+  float: left;
+  background-color: red;
+}
+.list-ele-title {
+  _float: left;
+  margin-left: 82px;
+}
+.list-ele-main-title {
+  display: block;
+  height: 30px;
+}
+.list-ele-main-title:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.list-ele-main-title-content {
+  float: left;
+  font-family: Microsoft YaHei;
+  margin-top: 6px;
+  font-size: 24px;
+  line-height: 1;
+  font-weight: bold;
+}
+.list-ele-sub-title {
+  margin-top: 15px;
+  font-family: Microsoft YaHei;
+  font-size: 16px;
+  line-height: 1;
+  color: #707070;
+  font-weight: normal;
+}
+.list-ele-icon {
+  height: 36px;
+  width: 36px;
+  margin-right: 36px;
+  float: right;
+  line-height: 1;
+  background-image: url(../img/down-arrow.svg);
+}
+
+
+.list-ele-active {
+  background: #FFEEE9 0% 0% no-repeat padding-box;
+}
+
+.list-ele-detail {
+  display: block;
+  box-sizing: content-box;
+  padding-bottom: 24px;
+  padding-left: 30px;
+  background: #FFEEE9 0% 0% no-repeat padding-box;
+}
+.list-ele-detail:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.list-ele-detail-title {
+  height: 24px;
+  width: 100%;
+  font-family: Microsoft YaHei;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1;
+}
+
+.list-ele-download {
+  float: left;
+  display: block;
+  width: 30%;
+  box-sizing: border-box;
+  padding-right: 32px;
+}
+
+.download-list-ele {
+  font-size: 16px;
+  color: #000;
+}
+.download-list-ele:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.download-list-ele-intro {
+  float: left;
+}
+.download-list-ele-size {
+  float: right;
+}
+
+.list-ele-content {
+  float: left;
+  box-sizing: border-box;
+  display: block;
+  width: 70%;
+  padding-right: 36px;
+}
+.list-ele-content-words {
+  color: #707070;
+  font-size: 16px;
+  font-family: Microsoft YaHei;
+  font-weight: normal;
+}
+
+.list-ele-plus-download {
+  margin-top: 20px;
+  float: left;
+  display: block;
+  color: #000;
+  font-size: 18px;
+  font-family: Microsoft YaHei;
+  text-decoration: none;
+}
+.list-ele-plus {
+  float: left;
+  display: block;
+  color: #000;
+  font-size: 18px;
+  font-family: Microsoft YaHei;
+  text-decoration: none;
+}
