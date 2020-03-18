@@ -76,7 +76,11 @@
   margin-right: 36px;
   float: right;
   line-height: 1;
+  transition: all .3s;
   background-image: url(../img/down-arrow.svg);
+}
+.list-ele-active .list-ele-icon {
+  transform: rotate(180deg);
 }
 
 
@@ -159,4 +163,52 @@
   font-size: 18px;
   font-family: Microsoft YaHei;
   text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  .list {
+    border-radius: 0;
+    background-color: #f5efef;
+  }
+  .list-container {
+    padding-top: 0;
+  }
+  .list-ele {
+    height: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+  }
+  .list-ele-sub-title {
+    margin-top: 35px;
+  }
+  .list-ele-detail {
+    display: flex;
+    flex-direction: column;
+    margin-top: -10px;
+    padding: 10px;
+  }
+  .list-ele-download {
+    width: 100%;
+    padding-right: 0;
+  }
+  .list-ele-download-list {
+    display: flex;
+    flex-direction: column;
+  }
+  .download-list-ele {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px 5px;
+    border: 1px solid #c3d08b;
+    border-radius: 5px;
+  }
+  .download-list-ele:last-child {
+    margin-bottom: 0;
+  }
+  .list-ele-content {
+    width: 100%;
+    margin-top: 10px;
+    padding-right: 0;
+  }
 }
