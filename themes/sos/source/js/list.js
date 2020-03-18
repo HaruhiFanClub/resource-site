@@ -83,13 +83,14 @@ $(document).ready(function () {
       const active = $(this).attr('active')
       if (active === 'false') {
         const detailHtml = getPostDetail(postMap[title])
-        $(this).after(detailHtml)
+        const detail = $(detailHtml).css('display','none').appendTo(this)
+        detail.slideDown()
         $(this).addClass('list-ele-active')
         $(this).attr('active', 'true')
       } else {
         $(this).attr('active', 'false')
         $(this).removeClass('list-ele-active')
-        $(`.list-ele-detail[title='${ title }']`).remove()
+        $(`.list-ele-detail[title='${ title }']`).slideUp(function(){ $(this).remove();})
       }
     })
   }

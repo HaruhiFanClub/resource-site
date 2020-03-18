@@ -24,7 +24,7 @@
   padding-top: 16px;
   padding-bottom: 20px;
   padding-left: 30px;
-  height: 64px;
+  transition: background-color 0.5s;
 }
 .list-ele:hover {
   cursor: pointer;
@@ -42,8 +42,9 @@
   background-color: red;
 }
 .list-ele-title {
-  _float: left;
-  margin-left: 82px;
+  display: inline-block;
+  margin-left: 10px;
+  width: calc(99% - 74px);
 }
 .list-ele-main-title {
   display: block;
@@ -91,9 +92,7 @@
 .list-ele-detail {
   display: block;
   box-sizing: content-box;
-  padding-bottom: 24px;
-  padding-left: 30px;
-  background: #FFEEE9 0% 0% no-repeat padding-box;
+  padding-top: 16px;
 }
 .list-ele-detail:after {
   content: '';
