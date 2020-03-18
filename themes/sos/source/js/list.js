@@ -90,7 +90,7 @@ $(document).ready(function () {
       } else {
         $(this).attr('active', 'false')
         $(this).removeClass('list-ele-active')
-        $(`.list-ele-detail[title='${ title }']`).slideUp(() => { detail.remove();})
+        $(`.list-ele-detail[title='${ title }']`).slideUp(function(){ $(this).remove();})
       }
     })
   }
