@@ -44,3 +44,33 @@
   /* 该处资源后续改为 js 出发模式 */
   /*background-image: url('/images/动画.png');*/
 }
+
+@media (max-width: 600px) {
+  .sidebar {
+    position: absolute;
+    top: 65px;
+    display: none;
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+    transition: all .3s;
+    transform: translateY(-1000px);
+  }
+  .sidebar.active {
+    display: block;
+    transform: translateY(0);
+  }
+  .sidebar-list {
+    margin-top: 0;
+  }
+  .sidebar-ele-common {
+    width: 100%;
+    padding-left: 10px;
+    text-align: left;
+    background-image: none;
+  }
+  .sidebar-ele-active {
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}

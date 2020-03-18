@@ -1,7 +1,9 @@
 /* 全局通用的 css */
 html, body {
   width: 100%;
-  background: #F5EFEF 0% 0% no-repeat padding-box
+  overflow-x: hidden;
+  margin: 0;
+  background: #F5EFEF 0% 0% no-repeat padding-box;
 }
 
 .main-container {
@@ -22,4 +24,17 @@ html, body {
   content: '';
   display: block;
   clear: both;
+}
+
+@media (max-width: 600px) {
+  .main-container {
+    width: 100%;
+    min-width: 0;
+    height: auto;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0;
+    background-position: 0 100px;
+  }
 }

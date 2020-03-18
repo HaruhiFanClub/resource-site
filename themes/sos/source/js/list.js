@@ -124,6 +124,18 @@ $(document).ready(function () {
 
   // 搜索事件处理
   document.getElementById('app-search').addEventListener('keyup', onSearch)
+
+  // 移动端sidebar开关切换
+  document.querySelector('.header-m-menu').addEventListener('click', () => {
+    const $_sidebar = $('.sidebar')
+    if ($_sidebar.hasClass('active')) {
+      $_sidebar.removeClass('active')
+      $('.icon-menu').removeClass('active')
+    } else {
+      $_sidebar.addClass('active')
+      $('.icon-menu').addClass('active')
+    }
+  })
 })
 
 
