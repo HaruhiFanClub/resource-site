@@ -98,6 +98,7 @@ header:after {
   header.m-home {
     align-items: flex-start;
     height: 188px;
+    overflow: hidden;
     padding-top: 10px;
   }
   header.active {
@@ -129,11 +130,29 @@ header:after {
     height: 20px;
   }
   .header-m-title {
+    position: relative;
     flex: 1;
     display: block;
     margin-left: 30px;
   }
+  .header-m-title .bg-logo {
+    display: none;
+  }
+  header.m-home .header-m-title .bg-logo {
+    position: absolute;
+    z-index: 0;
+    right: -28px;
+    top: -60px;
+    display: block;
+    font-size: 240px;
+    color: #f7b6ba;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transform: rotate(45deg);
+  }
   header.m-home .header-m-title h2 {
+    position: relative;
+    z-index: 1;
     margin-left: -40px;
     margin-top: 65px;
     font-size: 36px;
@@ -181,6 +200,8 @@ header:after {
     display: block;
   }
   .header-m-search {
+    position: relative;
+    z-index: 9;
     display: block;
   }
   .header-m-search .icon-search {

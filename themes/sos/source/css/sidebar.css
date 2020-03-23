@@ -48,7 +48,7 @@
 @media (max-width: 1024px) {
   .sidebar {
     position: absolute;
-    top: 57px;
+    top: 48px;
     display: none;
     width: 100%;
     height: auto;
@@ -73,6 +73,7 @@
     background-color: #f5efef;
   }
   .sidebar-ele-active {
+    font-weight: unset;
     background-size: cover;
     background-repeat: no-repeat;
   }

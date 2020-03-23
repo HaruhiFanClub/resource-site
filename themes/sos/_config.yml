@@ -5,8 +5,10 @@ menu:
 categoryList:
   - name: 动画
     image: images/动画.png
+    mobileImg: images/动画-m.png
   - name: 正作小说
     image: images/小说.png
+    mobileImg: images/小说-m.png
 
 # 信息收集地址
 collectInfoLink: http://baidu.com

@@ -12,7 +12,12 @@
   }
   window.sos.curCategory = curCategory
   curCategoryObj = categoryList.find(item => item.name === curCategory)
-  window.sos.curCategoryImage = curCategoryObj ? curCategoryObj.image : ''
+  window.sos.curCategoryImg = ''
+  window.sos.curCategoryMobileImg = ''
+  if (curCategoryObj) {
+    window.sos.curCategoryImg = curCategoryObj.image
+    window.sos.curCategoryMobileImg = curCategoryObj.mobileImg
+  }
   
 
   // 参数预备

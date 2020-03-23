@@ -61,6 +61,14 @@ $(document).ready(function () {
             <div class='list-ele-detail-title'>下载</div>
             ${ downloadHtml }
           </div>
+          <a
+            class='list-ele-plus-m-download'
+            href='${ window.sos.collectInfoLink }'
+            target='_blank'
+          >
+            <span>我还想要其他的版本</span>
+            <img src="/img/right.png" alt="" class="icon-right">
+          </a>
           <div class='list-ele-content'>
             <div class='list-ele-detail-title'>简介</div>
             <div class='list-ele-content-words'>${ post.downloadContent }</div>

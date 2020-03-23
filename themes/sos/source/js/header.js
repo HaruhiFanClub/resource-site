@@ -6,22 +6,27 @@ $(document).ready(function () {
   const pageTitle = window.sos.curCategoryImage ? window.sos.curCategory : '凉宫春日资源站';
   $('.header-m-title>h2').html(pageTitle)
   if (window.screen.width < 1024) {
-    if (window.sos.curCategoryImage) {
-      $('header').css('background-image', `url(${window.sos.curCategoryImage})`)
+    if (window.sos.curCategoryMobileImg) {
+      $('header').css('background-image', `url(${window.sos.curCategoryMobileImg})`)
     } else {
       $('header').addClass('m-home')
     }
-    
   }
 
   const toggleSidebar = () => {
     const $_sidebar = $('.sidebar')
     if ($_sidebar.hasClass('active')) {
+      // 关闭
       $_sidebar.removeClass('active')
       $('header').removeClass('active')
+      $('header').css('background-image', `url(${window.sos.curCategoryMobileImg})`)
     } else {
+      // 打开
       $_sidebar.addClass('active')
       $('header').addClass('active')
+      $('header').css('background-image', `none`)
+      const needActive = $(`.sidebar-ele-common[category='${ window.sos.curCategory }']`)
+      needActive.css('background-image', needActive.attr('mImg'))
     }
   }
   // 移动端sidebar开关切换
