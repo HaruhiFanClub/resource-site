@@ -104,6 +104,10 @@ $(document).ready(function () {
     $('.sidebar-ele-common').removeClass('sidebar-ele-active')
     $('.sidebar-ele-common').addClass('sidebar-ele-unactive')
     $('.sidebar-ele-common').css('background-image', 'none')
+    // 移动端隐藏搜索框
+    $('.header-search').removeClass('active')
+    // 移动端更换页面标题
+    $('.header-m-title>h2').html(`搜索结果：${$('.header-search>input').val()}`)
     // 正则匹配搜索
     const pattern = new RegExp(e.target.value)
     const mapData = window.sos.categoryMap
@@ -125,17 +129,32 @@ $(document).ready(function () {
 
   // 搜索事件处理
   document.getElementById('app-search').addEventListener('keyup', onSearch)
-
-  // 移动端sidebar开关切换
-  document.querySelector('.header-m-menu').addEventListener('click', () => {
+  
+  const toggleSidebar = () => {
     const $_sidebar = $('.sidebar')
     if ($_sidebar.hasClass('active')) {
       $_sidebar.removeClass('active')
-      $('.icon-menu').removeClass('active')
+      $('header').removeClass('active')
     } else {
       $_sidebar.addClass('active')
-      $('.icon-menu').addClass('active')
+      $('header').addClass('active')
     }
+  }
+  // 移动端sidebar开关切换
+  document.querySelector('.header-m-menu').addEventListener('click', toggleSidebar)
+  document.querySelector('.header-m-menu-close').addEventListener('click', toggleSidebar)
+
+  // 移动端搜索框开关
+  document.querySelector('.header-m-search').addEventListener('click', () => {
+    $('header').removeClass('active')
+    $('.sidebar').removeClass('active')
+    $('.header-search').addClass('active')
+    $('.header-search>input').focus()
+  })
+
+  // 移动端搜索框失焦自动隐藏
+  document.querySelector('.header-search>input').addEventListener('blur', () => {
+    $('.header-search').removeClass('active')
   })
 })
 
