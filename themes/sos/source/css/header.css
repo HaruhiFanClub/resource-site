@@ -79,7 +79,7 @@ header:after {
   background-color: #fff;
   box-shadow: 0px 3px 3px #c8c8c8 ;
 }
-.header-m-menu,.header-m-menu-close,.header-m-title,.header-m-search {
+.header-m-menu,.header-m-menu-close,.header-m-title,.header-m-search,.header-m-sub-title {
   display: none;
 }
 
@@ -93,8 +93,12 @@ header:after {
     min-width: 0;
     margin: 0 auto;
     padding: 0 10px;
-    background-image: url("/images/%E5%8A%A8%E7%94%BB.png");
     background-size: cover;
+  }
+  header.m-home {
+    align-items: flex-start;
+    height: 188px;
+    padding-top: 10px;
   }
   header.active {
     background-color: #f5efef;
@@ -129,8 +133,24 @@ header:after {
     display: block;
     margin-left: 30px;
   }
+  header.m-home .header-m-title h2 {
+    margin-left: -40px;
+    margin-top: 65px;
+    font-size: 36px;
+    color: #981A1A;
+    font-family: REEJI-HonghuangLiGB;
+    letter-spacing: 0;
+    line-height: 1;
+  }
   header.active .header-m-title {
     opacity: 0;
+  }
+  header.m-home .header-m-sub-title {
+    position: absolute;
+    top: 115px;
+    left: 25px;
+    display: block;
+    font-size: 16px;
   }
   .header-m-menu {
     display: block;
