@@ -45,31 +45,35 @@
   /*background-image: url('/images/动画.png');*/
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1024px) {
   .sidebar {
     position: absolute;
-    top: 65px;
+    top: 48px;
     display: none;
     width: 100%;
     height: auto;
     border-radius: 0;
     transition: all .3s;
-    transform: translateY(-1000px);
+    box-shadow: 0px 2px 2px #0000001A;
   }
   .sidebar.active {
     display: block;
-    transform: translateY(0);
   }
   .sidebar-list {
     margin-top: 0;
   }
   .sidebar-ele-common {
     width: 100%;
-    padding-left: 10px;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 0 0 10px;
+    font-size: 30px;
     text-align: left;
-    background-image: none;
+    color: #981A1A;
+    background-color: #f5efef;
   }
   .sidebar-ele-active {
+    font-weight: unset;
     background-size: cover;
     background-repeat: no-repeat;
   }

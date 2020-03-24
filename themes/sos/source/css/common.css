@@ -26,15 +26,17 @@ html, body {
   clear: both;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1024px) {
   .main-container {
     width: 100%;
     min-width: 0;
-    height: auto;
-    margin: 10px auto;
+    height: calc(100vh - 48px);
+    margin: 0;
     display: flex;
     flex-direction: column;
     border-radius: 0;
-    background-position: 0 100px;
+    background-image: url('../img/foreground-m.png');
+    background-size: cover;
+    background-position: 0 0;
   }
 }
