@@ -48,7 +48,8 @@ $(document).ready(function () {
       let downloadHtml = `<div class='list-ele-download-list'>`
       for (const download of post.downloadList) {
         downloadHtml += `
-          <a class='download-list-ele' href='${ download.link }' target='_blank'>
+          <a class='download-list-ele download-button' href='#' data-link=${ download.link } data-id=${ 'TODO' }>
+            <!-- 在这里使用download.link 是一个trick, 如果要设计modal中的内容请重新设计这里-->
             <div class='download-list-ele-intro'>${ download.intro }</div>
             <div class='download-list-ele-size'>${ download.size } &nbsp;<span style='text-decoration:underline;'>⬇<span></div>
           </a>
@@ -86,12 +87,24 @@ $(document).ready(function () {
     }
   
     // 点击事件处理
-    $('.list-ele').click(function () {
+    $('.list-ele').click(function (e) {
+      const target = e.target
+      if($(target).parents().hasClass('download-button'))
+        //use target.parents to prevent trigger sildeUp from clicking download
+        return
       const title = $(this).attr('title')
       const active = $(this).attr('active')
       if (active === 'false') {
         const detailHtml = getPostDetail(postMap[title])
         const detail = $(detailHtml).css('display','none').appendTo(this)
+        $(this).find(".download-button").click(function (){
+          const title = $(this).parents('.list-ele-detail').attr('title')
+          console.log(title)
+          $("#modal_title").html(title)
+          console.log($(this).data("link"))
+          $("#modal_body").html($(this).data("link"))
+          $("#modal_inf").modal()
+        })
         detail.slideDown()
         $(this).addClass('list-ele-active')
         $(this).attr('active', 'true')
@@ -104,6 +117,7 @@ $(document).ready(function () {
   }
 
   initList()
+
 
   const onSearch = e => {
     if (e.keyCode !== 13) return
