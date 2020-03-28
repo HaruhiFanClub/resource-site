@@ -89,7 +89,8 @@ $(document).ready(function () {
     // 点击事件处理
     $('.list-ele').click(function (e) {
       const target = e.target
-      if($(target).parents().hasClass('download-button'))
+      //console.log(target)
+      if($(target).parents().add(target).hasClass('download-button'))
         //use target.parents to prevent trigger sildeUp from clicking download
         return
       const title = $(this).attr('title')
