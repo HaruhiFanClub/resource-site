@@ -61,6 +61,14 @@ $(document).ready(function () {
             <div class='list-ele-detail-title'>下载</div>
             ${ downloadHtml }
           </div>
+          <a
+            class='list-ele-plus-m-download'
+            href='${ window.sos.collectInfoLink }'
+            target='_blank'
+          >
+            <span>我还想要其他的版本</span>
+            <img src="/img/right.png" alt="" class="icon-right">
+          </a>
           <div class='list-ele-content'>
             <div class='list-ele-detail-title'>简介</div>
             <div class='list-ele-content-words'>${ post.downloadContent }</div>
@@ -104,6 +112,10 @@ $(document).ready(function () {
     $('.sidebar-ele-common').removeClass('sidebar-ele-active')
     $('.sidebar-ele-common').addClass('sidebar-ele-unactive')
     $('.sidebar-ele-common').css('background-image', 'none')
+    // 移动端隐藏搜索框
+    $('.header-search').removeClass('active')
+    // 移动端更换页面标题
+    $('.header-m-title>h2').html(`搜索结果：${$('.header-search>input').val()}`)
     // 正则匹配搜索
     const pattern = new RegExp(e.target.value)
     const mapData = window.sos.categoryMap
@@ -125,18 +137,6 @@ $(document).ready(function () {
 
   // 搜索事件处理
   document.getElementById('app-search').addEventListener('keyup', onSearch)
-
-  // 移动端sidebar开关切换
-  document.querySelector('.header-m-menu').addEventListener('click', () => {
-    const $_sidebar = $('.sidebar')
-    if ($_sidebar.hasClass('active')) {
-      $_sidebar.removeClass('active')
-      $('.icon-menu').removeClass('active')
-    } else {
-      $_sidebar.addClass('active')
-      $('.icon-menu').addClass('active')
-    }
-  })
 })
 
 

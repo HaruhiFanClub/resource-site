@@ -2,14 +2,23 @@
 <script type="text/javascript">
   window.sos = {}
   window.sos.collectInfoLink = '<%- theme.collectInfoLink %>'
+  const categoryList = JSON.parse('<%- JSON.stringify(theme.categoryList) %>')
   const queryStr = window.location.search.substring(1)
   const queryArr = queryStr.split('&')
   let curCategory
   for (const queryEle of queryArr) {
     const pair = queryEle.split('=')
-    if (pair[0] === 'category') curCategory = pair[1]
+    if (pair[0] === 'category') curCategory = decodeURIComponent(pair[1])
   }
-  window.sos.curCategory = decodeURIComponent(curCategory)
+  window.sos.curCategory = curCategory
+  curCategoryObj = categoryList.find(item => item.name === curCategory)
+  window.sos.curCategoryImg = ''
+  window.sos.curCategoryMobileImg = ''
+  if (curCategoryObj) {
+    window.sos.curCategoryImg = curCategoryObj.image
+    window.sos.curCategoryMobileImg = curCategoryObj.mobileImg
+  }
+  
 
   // 参数预备
   const categoryMap = {}

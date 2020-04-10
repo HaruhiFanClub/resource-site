@@ -1,0 +1,27 @@
+---
+logo: images/other/Newtype2007凉宫大特辑.jpg
+title: 《Newtype 2007》凉宫大特辑
+subTitle: 《凉宫春日的忧郁 2006版》特辑
+
+category: 其他
+
+hasResource: true
+downloadList:
+  - intro: 直链下载
+    size: 27.1MB
+    link: http://download.haruhifanclub.com/%E3%80%8ANewType%202007%E3%80%8B%E5%87%89%E5%AE%AB%E5%A4%A7%E7%89%B9%E8%BE%91.zip
+  - intro: 云盘 提取码:9wc1
+    size: 27.1MB
+    link: https://pan.baidu.com/s/1_kRv89Dz3wVIGO4bZcec-w
+
+downloadContent: |
+  ニュータイプ12月号はめがっさ注目だよ。 何とぜ～んぶ「ハルヒ」の記事で総ページ数108P、 ニュータイプと同サイズの別冊付録 「涼宮ハルヒの完全無欠」が付いてるのさっ！<br><br>
+  【涼宮ハルヒの完全無欠】　その見どころとはっ……<br>
+  ①X'masを祝うパーティードレス姿のハルヒが、 約30cm×約90cmの巨大ピンナップで登場っ！<br>
+  ②アニメ雑誌などに掲載された、ハルヒのイラスト を初の一挙収録！<br>
+  ③いとうのいぢさんが描く、原作版ハルヒたちの コスプレ姿を集めたイラストギャラリー<br>
+  ④今までニュータイプに掲載された「ハルヒ」の 記事ページもすべてコンプリート！<br>
+  ⑤なんと、鶴屋さんや朝倉涼子ほかヒロイン特集 ページもっ!!<br><br>
+  ほかにも、 原作単行本の解説や、アニメ全話のスタッフデータ集、 CDやDVDなどグッズ紹介などなど、盛りだくさんだよ！<br>
+  ひとあし早いクリスマスプレゼントを受け取るっさー☆
+---

@@ -5,8 +5,52 @@ menu:
 categoryList:
   - name: 动画
     image: images/动画.png
-  - name: 正作小说
-    image: images/小说.png
+    mobileImg: 
+  - name: 正传小说
+    image: images/动画.png
+    mobileImg: 
+  - name: 短篇
+    image: images/动画.png
+    mobileImg: 
+  - name: 官方游戏
+    image: images/动画.png
+    mobileImg: 
+  - name: 公式书
+    image: images/动画.png
+    mobileImg: 
+  - name: 官方漫画
+    image: images/动画.png
+    mobileImg: 
+  - name: 映像
+    image: images/动画.png
+    mobileImg: 
+  - name: Live
+    image: images/动画.png
+    mobileImg: 
+  - name: 官方同人集
+    image: images/动画.png
+    mobileImg: 
+  - name: 画集
+    image: images/动画.png
+    mobileImg: 
+  - name: 官图
+    image: images/动画.png
+    mobileImg: 
+  - name: 广播剧
+    image: images/动画.png
+    mobileImg: 
+  - name: 周边
+    image: images/动画.png
+    mobileImg: 
+  - name: 音乐
+    image: images/动画.png
+    mobileImg: 
+  - name: 同人游戏
+    image: images/动画.png
+    mobileImg: 
+  - name: 其他
+    image: images/动画.png
+    mobileImg: 
 
 # 信息收集地址
-collectInfoLink: http://baidu.com
+collectInfoLink: https://www.wjx.cn/jq/70566797.aspx

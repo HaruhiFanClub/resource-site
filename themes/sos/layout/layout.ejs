@@ -13,6 +13,7 @@
   <%- css('css/header.css') %>
   <%- css('css/sidebar.css') %>
   <%- css('css/list.css') %>
+  <%- css('css/footer.css') %>
 </head>
 <body>
   <%- partial('_partial/header') %>
@@ -20,10 +21,12 @@
     <%- partial('_partial/sidebar') %>
     <%- partial('_partial/list') %>
   </div>
+  <%- partial('_partial/footer') %>
   <!-- <image src='<%- url_for('/images/动画.png') %>' /> -->
 
   <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
   <%- js('js/sidebar')%>
   <%- js('js/list') %>
+  <%- js('js/header') %>
 </body>
 </html>
