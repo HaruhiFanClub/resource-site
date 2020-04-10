@@ -1,5 +1,5 @@
 ---
-logo: images/七大不可思议OVERTIME.jpg
+logo: images/short/七大不可思议OVERTIME.jpg
 title: 七大不可思议OVERTIME
 subTitle: 《The Sneaker LEGEND》中的短篇
 
@@ -17,5 +17,6 @@ downloadList:
     size: 
     link: https://pan.baidu.com/s/1PsLKPe_9Wuy1PyTGrWD6eA
 
-downloadContent: 　　《The Sneaker LEGEND》中的短篇
+downloadContent: |
+  《The Sneaker LEGEND》中的短篇
 ---

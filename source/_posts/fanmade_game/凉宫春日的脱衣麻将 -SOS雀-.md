@@ -1,5 +1,5 @@
 ---
-logo: images/凉宫春日的脱衣麻将 -SOS雀-.jpg
+logo: images/fanmade_game/凉宫春日的脱衣麻将SOS雀.jpg
 title: 凉宫春日的脱衣麻将 -SOS雀-
 subTitle: PC平台
 
@@ -23,5 +23,6 @@ downloadList:
     size: 
     link: https://pan.baidu.com/s/1qtVnLIaJS1yvaVoMg1bA-Q
 
-downloadContent:   PC平台。云盘下载中含备用文件
+downloadContent: |
+  PC平台。云盘下载中含备用文件
 ---

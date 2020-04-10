@@ -1,5 +1,5 @@
 ---
-logo: images/SOS团名曲集.jpg
+logo: images/music/SOS团名曲集.jpg
 title: SOS团名曲集
 subTitle: ｢SOS団名曲アルバム｣ 共8回，包括《凉宫春日的忧郁 2009版》的bgm，[16bit_48kHz]
 
@@ -35,8 +35,8 @@ downloadList:
     size: 
     link: https://pan.baidu.com/s/1wL3vNgnGKIB3R8xd19LgPg
 
-downloadContent:   ｢SOS団名曲アルバム｣ 共8回，包括《凉宫春日的忧郁 2009版》的bgm [16bit_48kHz]
-
-版权属于:VCB-Studio
-文件地址:https://vcb-s.com/archives/11328
+downloadContent: |
+  ｢SOS団名曲アルバム｣ 共8回，包括《凉宫春日的忧郁 2009版》的bgm [16bit_48kHz]<br><br>
+  版权属于:VCB-Studio<br>
+  文件地址:https://vcb-s.com/archives/11328
 ---

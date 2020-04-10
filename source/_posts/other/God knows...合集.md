@@ -1,5 +1,5 @@
 ---
-logo: images/God knows...合集.jpg
+logo: images/other/Godknows合集.jpg
 title: God knows...合集
 subTitle: 2D+3D+伴奏+原曲+歌词+扫图
 
@@ -11,5 +11,6 @@ downloadList:
     size: 483.7MB
     link: https://pan.baidu.com/s/1VpUGqXd62sPFCcQa4r1qMw
 
-downloadContent:   2D+3D+伴奏+原曲+歌词+扫图
+downloadContent: |
+  2D+3D+伴奏+原曲+歌词+扫图
 ---

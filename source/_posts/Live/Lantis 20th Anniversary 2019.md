@@ -1,5 +1,5 @@
 ---
-logo: images/Lantis 20th Anniversary 2019.jpg
+logo: images/Live/Lantis20thAnniversary2019.jpg
 title: Lantis 20th Anniversary 2019
 subTitle: SOS团全员的团舞
 
@@ -11,5 +11,6 @@ downloadList:
     size: 29.6MB
     link: https://pan.baidu.com/s/1HAjjBPWmA0IOBHO0zlgeyw
 
-downloadContent:   SOS团全员的团舞
+downloadContent: |
+  SOS团全员的团舞
 ---

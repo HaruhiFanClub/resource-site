@@ -1,5 +1,5 @@
 ---
-logo: images/ALL.jpg
+logo: images/picture/ALL.jpg
 title: ALL
 subTitle: 上方所有版权绘的汇总
 
@@ -11,5 +11,6 @@ downloadList:
     size: 1.8GB
     link: https://pan.baidu.com/s/1viWJ-1KEvXJWh1Lkp7rNNQ
 
-downloadContent:   上方所有版权绘的汇总
+downloadContent: |
+  上方所有版权绘的汇总
 ---

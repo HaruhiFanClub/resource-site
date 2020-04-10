@@ -1,5 +1,5 @@
 ---
-logo: images/【动心MTV】凉宫春日的消失-温柔的忘却.jpg
+logo: images/other/【动心MTV】凉宫春日的消失-温柔的忘却.jpg
 title: 【动心MTV】凉宫春日的消失-温柔的忘却
 subTitle: 动感新时代 附赠DVD
 
@@ -11,5 +11,6 @@ downloadList:
     size: 18.8MB
     link: https://pan.baidu.com/s/1g45o4CXWuqLhteOmhPdmTA
 
-downloadContent:   动感新时代 附赠DVD
+downloadContent: |
+  动感新时代 附赠DVD
 ---

@@ -1,5 +1,5 @@
 ---
-logo: images/NCOP/ED.jpg
+logo: images/animation/NCOP_ED.jpg
 title: NCOP/ED
 subTitle: 无STAFF表的06＆09＆小凉宫OP/ED
 
@@ -29,8 +29,8 @@ downloadList:
     size: 
     link: https://pan.baidu.com/s/1GZKkoomAZJYevpULaLTUlQ
 
-downloadContent:   无STAFF表的06＆09＆小凉宫OP/ED
-
-版权属于:VCB-Studio
-文件地址:https://vcb-s.com/archives/11328
+downloadContent: |
+  无STAFF表的06＆09＆小凉宫OP/ED<br><br>
+  版权属于:VCB-Studio<br>
+  文件地址:https://vcb-s.com/archives/11328
 ---

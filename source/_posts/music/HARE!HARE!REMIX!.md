@@ -1,5 +1,5 @@
 ---
-logo: images/HARE!HARE!REMIX!.jpg
+logo: images/music/HARE!HARE!REMIX!.jpg
 title: HARE!HARE!REMIX!
 subTitle: 非卖品 涼宮ハルヒの憂鬱 HARE!HARE!REMIX!（オリコン5位記念限定生産CD・EX付）
 
@@ -14,11 +14,12 @@ downloadList:
     size: 73.5MB
     link: https://pan.baidu.com/s/1TCCZDHu-9ecFrCtkLpGdUw
 
-downloadContent:   涼宮ハルヒの憂鬱 HARE!HARE!REMIX!  
-平野綾・茅原実里・後藤邑子
-收录曲：
-01 冒険でしょでしょ？ -REMIX-
-02 ハレ晴レユカイ -REMIX-
-03 風読リボン -REMIX-
-04 うぇるかむUNKNOWN -REMIX-
+downloadContent: |
+  涼宮ハルヒの憂鬱 HARE!HARE!REMIX!<br>
+  平野綾・茅原実里・後藤邑子<br>
+  收录曲：<br>
+  01 冒険でしょでしょ？ -REMIX-<br>
+  02 ハレ晴レユカイ -REMIX-<br>
+  03 風読リボン -REMIX-<br>
+  04 うぇるかむUNKNOWN -REMIX-
 ---

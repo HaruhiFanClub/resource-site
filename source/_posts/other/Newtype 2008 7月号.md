@@ -1,5 +1,5 @@
 ---
-logo: images/Newtype 2008 7月号.jpg
+logo: images/other/Newtype20087月号.jpg
 title: Newtype 2008 7月号
 subTitle: 暂无资源，如果你拥有该资源，可点击此处向我们提交反馈
 

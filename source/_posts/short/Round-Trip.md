@@ -1,5 +1,5 @@
 ---
-logo: images/Round-Trip.jpg
+logo: images/short/Round-Trip.jpg
 title: Round-Trip
 subTitle: 谷川流 Sneaker文库25周年短篇
 
@@ -17,5 +17,6 @@ downloadList:
     size: 
     link: https://pan.baidu.com/s/1UiYfExWqOw6UeA35ER6fqA
 
-downloadContent: 　　谷川流 Sneaker文库25周年短篇
+downloadContent: |
+  谷川流 Sneaker文库25周年短篇
 ---
