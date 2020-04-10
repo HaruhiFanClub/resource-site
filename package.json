@@ -24,5 +24,17 @@
   },
   "devDependencies": {
     "express": "^4.17.1"
-  }
+  },
+  "description": "1. 本地需要安装 `nodejs` ，[下载地址](https://nodejs.org/en/)  \r 1. 进入工程目录，执行 `npm install` 完成依赖安装",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HaruhiFanClub/resource-site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HaruhiFanClub/resource-site/issues"
+  },
+  "homepage": "https://github.com/HaruhiFanClub/resource-site#readme"
 }

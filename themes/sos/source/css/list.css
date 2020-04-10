@@ -40,6 +40,7 @@
   width: 64px;
   float: left;
   background-color: red;
+  background-size: 100% 100%;
 }
 .list-ele-title {
   display: inline-block;
