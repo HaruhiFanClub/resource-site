@@ -1,7 +1,7 @@
 ---
 logo: images/goods/凉宫春日DTA桌宠.jpg
 title: 凉宫春日 DTA桌宠
-subTitle: "凉宫春日的忧郁 DESK TOP ACC For Windows"于2010年3月27日发售，支持的操作系统：Windows XP / Vista / Windows 7
+subTitle: “凉宫春日的忧郁 DESK TOP ACC For Windows”于2010年3月27日发售，支持的操作系统：Windows XP / Vista / Windows 7
 
 category: 周边
 
