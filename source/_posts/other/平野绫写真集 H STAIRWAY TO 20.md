@@ -11,7 +11,7 @@ downloadList:
     size: 23.4MB
     link: https://pan.baidu.com/s/1wSkqmNHsEuoKG6E3NpTPfA
 
-downloadContent:| 
+downloadContent: | 
   10代のおわり　20代への期待　ハイスピードで　駆け抜ける彼女の今。<br><br>
   今、輝きに輝いてる綾ちゃん！１０代最後のこの年に、初めての写真集として彼女が届ける笑顔のプリズム。 きっとあなたの心に届くはず……でしょ？
 ---

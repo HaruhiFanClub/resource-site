@@ -1,7 +1,7 @@
 ---
 logo: images/music/凉宫春日的忧郁SuperRemixNONSTOPMEGAMIX.jpg
 title: 凉宫春日的忧郁 Super-Remix-NON STOP MEGA MIX
-subTitle: C76 Lantis摊位售卖CD，2009年8月14日-8月16日限量发售
+subTitle: C76 Lantis摊位售卖CD，2009年8月14日-8月16日限量发售
 
 category: 音乐
 
