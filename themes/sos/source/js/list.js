@@ -86,7 +86,11 @@ $(document).ready(function () {
     }
   
     // 点击事件处理
-    $('.list-ele').click(function () {
+    $('.list-ele').click(function (e) {
+      const target = e.target
+      if($(target).parents().add(target).hasClass('list-ele-download'))
+        //use target.parents to prevent trigger sildeUp from clicking download
+        return
       const title = $(this).attr('title')
       const active = $(this).attr('active')
       if (active === 'false') {
