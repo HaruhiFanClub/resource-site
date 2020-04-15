@@ -2,6 +2,7 @@
 logo: images/animation/小长门有希的消失OAD.jpg
 title: 小长门有希的消失 OAD
 subTitle: 由SATELIGHT制作的OAD动画，于2015年10月26日放送，全1话
+queue: \7
 
 category: 动画
 

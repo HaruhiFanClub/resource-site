@@ -2,6 +2,7 @@
 logo: images/animation/NCOP_ED.jpg
 title: NCOP/ED
 subTitle: 无STAFF表的06＆09＆小凉宫OP/ED
+queue: \8
 
 category: 动画
 
@@ -25,9 +26,9 @@ downloadList:
   - intro: 小凉宫ED
     size: 52.7MB
     link:
-  - intro: 云盘 提取码:tz7s
+  - intro: 云盘 提取码:cu47
     size: 
-    link: https://pan.baidu.com/s/1GZKkoomAZJYevpULaLTUlQ
+    link: https://pan.baidu.com/s/1N4plvpwS56ZgprMPeEio3A
 
 downloadContent: |
   无STAFF表的06＆09＆小凉宫OP/ED<br><br>
