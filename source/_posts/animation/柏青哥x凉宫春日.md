@@ -2,6 +2,7 @@
 logo: images/animation/柏青哥x凉宫春日.jpg
 title: 柏青哥x凉宫春日
 subTitle: 弹珠机“柏青哥”与凉宫春日的联动
+queue: \10
 
 category: 动画
 

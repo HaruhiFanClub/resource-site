@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: SOS
+title: 凉宫春日资源站
 subtitle: ''
 description: ''
 keywords:
@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://resource.haruhifanclub.com
+url: https://resource.haruhifanclub.com
 root: /
 # permalink: :year/:month/:day/:title/
 permalink: :title/
@@ -60,7 +60,7 @@ highlight:
 index_generator:
   path: ''
   per_page: 10
-  order_by: -date
+  order_by: title
 
 # Category & Tag
 default_category: uncategorized

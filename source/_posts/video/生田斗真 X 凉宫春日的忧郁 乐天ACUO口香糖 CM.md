@@ -13,9 +13,9 @@ downloadList:
   - intro: 30s
     size: 2MB
     link:
-  - intro: 云盘 提取码:xvxx
+  - intro: 云盘 提取码:r96i
     size:
-    link: https://pan.baidu.com/s/18Mc6RcxgT9AVSfDmTtur4w
+    link: https://pan.baidu.com/s/1ICvpWnZdFg5B9s7CVpFK_Q
 
 downloadContent: |
   ロッテ『ACUO』の新CMで生田斗真さんとハルヒが共演！<br>

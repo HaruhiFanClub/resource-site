@@ -1,6 +1,6 @@
 ---
 logo: images/music/GodKnowsWontStopMyMusic.jpg
-title: God Knows...Won't Stop My Music
+title: God Knows...Wont Stop My Music
 subTitle: 《凉宫春日的忧郁 2006版》放送3周年纪念
 
 category: 音乐
