@@ -1,7 +1,7 @@
 ---
 logo: images/Live/山本彩x平野綾x松村沙友理ハレ晴レユカイ.jpg
 title: 山本彩 x 平野綾 x 松村沙友理 - ハレ晴レユカイ
-subTitle: 
+subTitle: 2017.12.13，FNS歌謡祭 第2夜
 
 category: Live
 
