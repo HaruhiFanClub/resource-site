@@ -10,13 +10,13 @@ hasResource: true
 downloadList:
   - intro: 1080P x265
     size: 1.1GB
-    link: 
+    link: https://pan.baidu.com/s/1d_IK-31llv97j5dlMLpfow
   - intro: 字幕1
     size: 37KB
-    link: 
+    link: https://pan.baidu.com/s/1d_IK-31llv97j5dlMLpfow
   - intro: 字幕2
     size: 29KB
-    link: 
+    link: https://pan.baidu.com/s/1d_IK-31llv97j5dlMLpfow
   - intro: 云盘 提取码:j315
     size: 
     link: https://pan.baidu.com/s/1d_IK-31llv97j5dlMLpfow

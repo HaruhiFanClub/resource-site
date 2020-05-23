@@ -10,16 +10,16 @@ hasResource: true
 downloadList:
   - intro: ①
     size: 69.7MB
-    link: 
+    link:  https://pan.baidu.com/s/1NAo0vV4lMWFsKyZ7tiE3Ig
   - intro: ②
     size: 43.1MB
-    link: 
+    link:  https://pan.baidu.com/s/1NAo0vV4lMWFsKyZ7tiE3Ig
   - intro: ③
     size: 28.7MB
-    link:
+    link: https://pan.baidu.com/s/1NAo0vV4lMWFsKyZ7tiE3Ig
   - intro: ③宣传PV
     size: 42.1MB
-    link:
+    link: https://pan.baidu.com/s/1NAo0vV4lMWFsKyZ7tiE3Ig
   - intro: 云盘 提取码:8jfi
     size: 
     link: https://pan.baidu.com/s/1NAo0vV4lMWFsKyZ7tiE3Ig

@@ -9,7 +9,7 @@ hasResource: true
 downloadList:
   - intro: downlist
     size: 483B
-    link: 
+    link: https://pan.baidu.com/s/1eu_2u9aOgN-wB6LIYZ8DwA
   - intro: 云盘 提取码:8ssz
     size: 483B
     link: https://pan.baidu.com/s/1eu_2u9aOgN-wB6LIYZ8DwA

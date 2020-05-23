@@ -9,10 +9,10 @@ hasResource: true
 downloadList:
   - intro: wav
     size: 428.5MB
-    link: 
+    link: https://pan.baidu.com/s/1xB3MqCuznxhXo1IKRaPSTA
   - intro: flac+jpg
     size: 198.8MB
-    link:
+    link: https://pan.baidu.com/s/1xB3MqCuznxhXo1IKRaPSTA
   - intro: 云盘 提取码:fwcm
     size: 
     link: https://pan.baidu.com/s/1xB3MqCuznxhXo1IKRaPSTA

@@ -9,10 +9,10 @@ hasResource: true
 downloadList:
   - intro: txt
     size: 39KB
-    link: 
+    link: https://pan.baidu.com/s/1UiYfExWqOw6UeA35ER6fqA
   - intro: pdf
     size: 2.5MB
-    link: 
+    link: https://pan.baidu.com/s/1UiYfExWqOw6UeA35ER6fqA
   - intro: 云盘 提取码:yc9y
     size: 
     link: https://pan.baidu.com/s/1UiYfExWqOw6UeA35ER6fqA

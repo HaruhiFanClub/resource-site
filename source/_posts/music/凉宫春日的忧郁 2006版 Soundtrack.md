@@ -9,7 +9,7 @@ hasResource: true
 downloadList:
   - intro: flac+webp
     size: 644.4MB
-    link: 
+    link: https://pan.baidu.com/s/1MFfzUojp4zBadr7JqhVabg
   - intro: 云盘 提取码:7huv
     size: 644.4MB
     link: https://pan.baidu.com/s/1MFfzUojp4zBadr7JqhVabg

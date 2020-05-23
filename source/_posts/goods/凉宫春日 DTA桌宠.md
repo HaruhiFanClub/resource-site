@@ -9,10 +9,10 @@ hasResource: true
 downloadList:
   - intro: DTA
     size: 372.4MB
-    link: 
+    link: https://pan.baidu.com/s/1hXrSCIC5Vu3J4-6UyOGcRQ
   - intro: 仅桌宠
     size: 27.2MB
-    link: 
+    link: https://pan.baidu.com/s/1hXrSCIC5Vu3J4-6UyOGcRQ
   - intro: 云盘 提取码:s184
     size: 
     link: https://pan.baidu.com/s/1hXrSCIC5Vu3J4-6UyOGcRQ

@@ -9,28 +9,28 @@ hasResource: true
 downloadList:
   - intro: 第1回
     size: 77.1MB
-    link: 
+    link: https://pan.baidu.com/s/1wL3vNgnGKIB3R8xd19LgPg
   - intro: 第2回
     size: 132.3MB
-    link:
+    link: https://pan.baidu.com/s/1wL3vNgnGKIB3R8xd19LgPg
   - intro: 第3回
     size: 60.8MB
-    link: 
+    link: https://pan.baidu.com/s/1wL3vNgnGKIB3R8xd19LgPg
   - intro: 第4回
     size: 47.5MB
-    link:
+    link: https://pan.baidu.com/s/1wL3vNgnGKIB3R8xd19LgPg
   - intro: 第5回
     size: 63.3MB
-    link: 
+    link: https://pan.baidu.com/s/1wL3vNgnGKIB3R8xd19LgPg
   - intro: 第6回
     size: 59MB
-    link:
+    link: https://pan.baidu.com/s/1wL3vNgnGKIB3R8xd19LgPg
   - intro: 第7回
     size: 88.4MB
-    link: 
+    link: https://pan.baidu.com/s/1wL3vNgnGKIB3R8xd19LgPg
   - intro: 第8回
     size: 39.2MB
-    link:
+    link: https://pan.baidu.com/s/1wL3vNgnGKIB3R8xd19LgPg
   - intro: 云盘 提取码:ypkw
     size: 
     link: https://pan.baidu.com/s/1wL3vNgnGKIB3R8xd19LgPg

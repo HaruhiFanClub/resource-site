@@ -9,7 +9,7 @@ hasResource: true
 downloadList:
   - intro: flac+jpg
     size: 137.9MB
-    link: 
+    link: https://pan.baidu.com/s/1fNYNM8zVGOsfRjotd6Gz7Q
   - intro: 云盘 提取码:cx96
     size: 137.9MB
     link: https://pan.baidu.com/s/1fNYNM8zVGOsfRjotd6Gz7Q

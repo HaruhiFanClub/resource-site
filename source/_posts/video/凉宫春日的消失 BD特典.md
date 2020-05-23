@@ -9,22 +9,22 @@ hasResource: true
 downloadList:
   - intro: BGM制作
     size: 409.9MB
-    link: 
+    link: https://pan.baidu.com/s/1EkTA4YETdleCFkKgB0hddw
   - intro: CM
     size: 119.2MB
-    link: 
+    link: https://pan.baidu.com/s/1EkTA4YETdleCFkKgB0hddw
   - intro: Event
     size: 748.7MB
-    link: 
+    link: https://pan.baidu.com/s/1EkTA4YETdleCFkKgB0hddw
   - intro: Making
     size: 1.9GB
-    link: 
+    link: https://pan.baidu.com/s/1EkTA4YETdleCFkKgB0hddw
   - intro: 预告
     size: 74MB
-    link: 
+    link: https://pan.baidu.com/s/1EkTA4YETdleCFkKgB0hddw
   - intro: 场景取材
     size: 188.4MB
-    link: 
+    link: https://pan.baidu.com/s/1EkTA4YETdleCFkKgB0hddw
   - intro: 云盘 提取码:7e5j
     size: 
     link: https://pan.baidu.com/s/1EkTA4YETdleCFkKgB0hddw

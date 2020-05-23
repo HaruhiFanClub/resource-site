@@ -9,10 +9,10 @@ hasResource: true
 downloadList:
   - intro: docx
     size: 73KB
-    link: 
+    link: https://pan.baidu.com/s/1PsLKPe_9Wuy1PyTGrWD6eA
   - intro: pdf英译
     size: 1.3MB
-    link: 
+    link: https://pan.baidu.com/s/1PsLKPe_9Wuy1PyTGrWD6eA
   - intro: 云盘 提取码:5jhi
     size: 
     link: https://pan.baidu.com/s/1PsLKPe_9Wuy1PyTGrWD6eA

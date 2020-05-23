@@ -9,13 +9,13 @@ hasResource: true
 downloadList:
   - intro: pdf
     size: 302.8MB
-    link: 
+    link: https://pan.baidu.com/s/1DT4k1YJ2qIH-oVxEHXEEGQ
   - intro: 7z
     size: 110.4MB
-    link:
+    link: https://pan.baidu.com/s/1DT4k1YJ2qIH-oVxEHXEEGQ
   - intro: 7z凉宫part
     size: 83MB
-    link: 
+    link: https://pan.baidu.com/s/1DT4k1YJ2qIH-oVxEHXEEGQ
   - intro: 云盘 提取码:b538
     size: 
     link: https://pan.baidu.com/s/1DT4k1YJ2qIH-oVxEHXEEGQ
