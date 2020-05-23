@@ -9,7 +9,7 @@ hasResource: true
 downloadList:
   - intro: mp3
     size: 10.1MB
-    link: 
+    link: https://pan.baidu.com/s/1MEPTGCSjsAHpOpiVM6iKig
   - intro: 云盘 提取码:gjnb
     size: 10.1MB
     link: https://pan.baidu.com/s/1MEPTGCSjsAHpOpiVM6iKig

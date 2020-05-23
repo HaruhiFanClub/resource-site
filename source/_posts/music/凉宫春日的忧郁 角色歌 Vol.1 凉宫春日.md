@@ -9,7 +9,7 @@ hasResource: true
 downloadList:
   - intro: flac+jpg
     size: 179MB
-    link: 
+    link: https://pan.baidu.com/s/11MrMavy91hilHS0Eb_FStw
   - intro: 云盘 提取码:uid4
     size: 179MB
     link: https://pan.baidu.com/s/11MrMavy91hilHS0Eb_FStw

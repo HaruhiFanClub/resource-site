@@ -9,13 +9,13 @@ hasResource: true
 downloadList:
   - intro: CM
     size: 117.7MB
-    link: 
+    link: https://pan.baidu.com/s/1aF9UI0Xm5duMiy8CrRI50w
   - intro: PV
     size: 46.5MB
-    link: 
+    link: https://pan.baidu.com/s/1aF9UI0Xm5duMiy8CrRI50w
   - intro: SPOP
     size: 62.2MB
-    link: 
+    link: https://pan.baidu.com/s/1aF9UI0Xm5duMiy8CrRI50w
   - intro: 云盘 提取码:cvsb
     size: 
     link: https://pan.baidu.com/s/1aF9UI0Xm5duMiy8CrRI50w

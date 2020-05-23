@@ -9,7 +9,7 @@ hasResource: true
 downloadList:
   - intro: flac+jpg
     size: 116.7MB
-    link: 
+    link: https://pan.baidu.com/s/1n58vPT1T4TwTmHRxIe-U8w
   - intro: 云盘 提取码:sv9w
     size: 116.7MB
     link: https://pan.baidu.com/s/1n58vPT1T4TwTmHRxIe-U8w

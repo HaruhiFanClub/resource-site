@@ -9,7 +9,7 @@ hasResource: true
 downloadList:
   - intro: flac+jpg
     size: 217.5MB
-    link: 
+    link: https://pan.baidu.com/s/1s_UimKwj3XCirKxSmx6QcQ
   - intro: 云盘 提取码:jdcc
     size: 217.5MB
     link: https://pan.baidu.com/s/1s_UimKwj3XCirKxSmx6QcQ

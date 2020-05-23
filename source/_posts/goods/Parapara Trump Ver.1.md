@@ -9,10 +9,10 @@ hasResource: true
 downloadList:
   - intro: 动图
     size: 1.4MB
-    link: 
+    link: https://pan.baidu.com/s/1L0Par4wfpQaMq8qHa9l3CQ
   - intro: 个人GIF
     size: 183KB
-    link: 
+    link: https://pan.baidu.com/s/1L0Par4wfpQaMq8qHa9l3CQ
   - intro: 云盘 提取码:gfm6
     size: 
     link: https://pan.baidu.com/s/1L0Par4wfpQaMq8qHa9l3CQ

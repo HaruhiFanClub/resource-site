@@ -9,16 +9,16 @@ hasResource: true
 downloadList:
   - intro: 日版
     size: 83.3MB
-    link: 
+    link: https://pan.baidu.com/s/1t-ocM_Dt-B83UXqOY_BPSw
   - intro: 修正1.03
     size: 19MB
-    link:
+    link: https://pan.baidu.com/s/1t-ocM_Dt-B83UXqOY_BPSw
   - intro: 修正1.06
     size: 19.5MB
-    link: 
+    link: https://pan.baidu.com/s/1t-ocM_Dt-B83UXqOY_BPSw
   - intro: 存档
     size: 724B
-    link:
+    link: https://pan.baidu.com/s/1t-ocM_Dt-B83UXqOY_BPSw
   - intro: 云盘 提取码:xvtr
     size: 
     link: https://pan.baidu.com/s/1t-ocM_Dt-B83UXqOY_BPSw

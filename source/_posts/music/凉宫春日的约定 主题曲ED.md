@@ -9,10 +9,10 @@ hasResource: true
 downloadList:
   - intro: mp3
     size: 102.4MB
-    link: 
+    link: https://pan.baidu.com/s/1Wv363QfleuBg3_Sm6j5oHw
   - intro: ape+cue
     size: 305.6MB
-    link: 
+    link: https://pan.baidu.com/s/1Wv363QfleuBg3_Sm6j5oHw
   - intro: 云盘 提取码:7hax
     size: 
     link: https://pan.baidu.com/s/1Wv363QfleuBg3_Sm6j5oHw

@@ -9,10 +9,10 @@ hasResource: true
 downloadList:
   - intro: docx
     size: 97KB
-    link: 
+    link: https://pan.baidu.com/s/1mmwfR_8BIJ-sr5nv9Yn_SQ
   - intro: txt
     size: 745KB
-    link:
+    link: https://pan.baidu.com/s/1mmwfR_8BIJ-sr5nv9Yn_SQ
   - intro: 云盘 提取码:ueca
     size: 
     link: https://pan.baidu.com/s/1mmwfR_8BIJ-sr5nv9Yn_SQ

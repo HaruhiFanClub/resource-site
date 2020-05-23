@@ -9,10 +9,10 @@ hasResource: true
 downloadList:
   - intro: 动图1
     size: 41KB
-    link: 
+    link: https://pan.baidu.com/s/1sdGGLrfMAjVCFSkG5gJW1w
   - intro: 动态2
     size: 784KB
-    link:
+    link: https://pan.baidu.com/s/1sdGGLrfMAjVCFSkG5gJW1w
   - intro: 云盘 提取码:rfy2
     size: 
     link: https://pan.baidu.com/s/1sdGGLrfMAjVCFSkG5gJW1w

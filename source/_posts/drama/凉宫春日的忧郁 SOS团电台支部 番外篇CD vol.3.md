@@ -9,7 +9,7 @@ hasResource: true
 downloadList:
   - intro: flac+jpg
     size: 310.1MB
-    link: 
+    link: https://pan.baidu.com/s/1i8FjAdesY-D_3YDyHXHBdA
   - intro: 云盘 提取码:rvdk
     size: 310.1MB
     link: https://pan.baidu.com/s/1i8FjAdesY-D_3YDyHXHBdA

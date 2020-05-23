@@ -9,7 +9,7 @@ hasResource: true
 downloadList:
   - intro: mp3
     size: 66.7MB
-    link: 
+    link: https://pan.baidu.com/s/16FU8MmFpXkK6z0BMaQ_I7Q
   - intro: 云盘 提取码:ms7p
     size: 66.7MB
     link: https://pan.baidu.com/s/16FU8MmFpXkK6z0BMaQ_I7Q

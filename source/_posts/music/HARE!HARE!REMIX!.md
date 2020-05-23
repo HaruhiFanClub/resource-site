@@ -9,7 +9,7 @@ hasResource: true
 downloadList:
   - intro: jpg+mp3 
     size: 73.5MB
-    link: 
+    link: https://pan.baidu.com/s/1TCCZDHu-9ecFrCtkLpGdUw
   - intro: 云盘 提取码:v2us
     size: 73.5MB
     link: https://pan.baidu.com/s/1TCCZDHu-9ecFrCtkLpGdUw

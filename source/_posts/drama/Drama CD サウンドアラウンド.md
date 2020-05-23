@@ -9,10 +9,10 @@ hasResource: true
 downloadList:
   - intro: flac+jpg
     size: 383.1MB
-    link: 
+    link: https://pan.baidu.com/s/1Lxgp5NcXpMvMfoNXv7se7g
   - intro: 翻译
     size: 77KB
-    link: 
+    link: https://pan.baidu.com/s/1Lxgp5NcXpMvMfoNXv7se7g
   - intro: 云盘 提取码:e8r7
     size: 
     link: https://pan.baidu.com/s/1Lxgp5NcXpMvMfoNXv7se7g

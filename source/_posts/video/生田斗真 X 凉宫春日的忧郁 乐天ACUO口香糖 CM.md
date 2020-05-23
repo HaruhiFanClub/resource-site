@@ -9,10 +9,10 @@ hasResource: true
 downloadList:
   - intro: 15s
     size: 1.3MB
-    link: 
+    link: https://pan.baidu.com/s/1ICvpWnZdFg5B9s7CVpFK_Q
   - intro: 30s
     size: 2MB
-    link:
+    link: https://pan.baidu.com/s/1ICvpWnZdFg5B9s7CVpFK_Q
   - intro: 云盘 提取码:r96i
     size:
     link: https://pan.baidu.com/s/1ICvpWnZdFg5B9s7CVpFK_Q

@@ -9,7 +9,7 @@ hasResource: true
 downloadList:
   - intro: mp3
     size: 130.7MB
-    link: 
+    link: https://pan.baidu.com/s/1yjWxOIYZoEk5doL4xZ5dag
   - intro: 云盘 提取码:a5gp
     size: 130.7MB
     link: https://pan.baidu.com/s/1yjWxOIYZoEk5doL4xZ5dag

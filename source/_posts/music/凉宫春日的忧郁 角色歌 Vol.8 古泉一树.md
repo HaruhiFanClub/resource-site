@@ -9,7 +9,7 @@ hasResource: true
 downloadList:
   - intro: flac+jpg
     size: 125.1MB
-    link: 
+    link: https://pan.baidu.com/s/12Crz-Om0j5yhQpALISb8Rw
   - intro: 云盘 提取码:eb95
     size: 125.1MB
     link: https://pan.baidu.com/s/12Crz-Om0j5yhQpALISb8Rw
