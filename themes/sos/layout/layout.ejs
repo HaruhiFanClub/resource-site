@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-167943016-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-167943016-1');
+  </script>
   <title>SOS</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -15,6 +24,7 @@
   <%- css('css/list.css') %>
   <%- css('css/footer.css') %>
 </head>
+
 <body>
   <%- partial('_partial/header') %>
   <div class='main-container'>
@@ -24,9 +34,11 @@
   <%- partial('_partial/footer') %>
   <!-- <image src='<%- url_for('/images/动画.png') %>' /> -->
 
-  <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+  <!-- <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
   <%- js('js/sidebar')%>
   <%- js('js/list') %>
   <%- js('js/header') %>
 </body>
+
 </html>
