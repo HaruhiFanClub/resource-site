@@ -23,7 +23,7 @@
     "hexo-server": "^1.0.0"
   },
   "devDependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.3"
   },
   "description": "1. 本地需要安装 `nodejs` ，[下载地址](https://nodejs.org/en/)  \r 1. 进入工程目录，执行 `npm install` 完成依赖安装",
   "main": "index.js",
